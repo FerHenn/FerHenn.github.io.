@@ -55,10 +55,8 @@ header {
   padding: 20px 35px;
 }
 .logo {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--text-color);
-  text-transform: uppercase;
+  flex: 1 1 17rem;
+  height: 45PX;
 }
 .logo span {
   color: var(--main-color);
@@ -90,15 +88,16 @@ header {
   display: none;
 }
 .home {
-  min-height: 640px;
+  min-height: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 .home-img {
   flex: 1 1 17rem;
+  /* height: 30px; */
 }
 .home-text {
   flex: 1 1 17rem;
